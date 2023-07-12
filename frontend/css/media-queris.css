@@ -1,19 +1,8 @@
 @media only screen and (max-width:1400px){
-    .about_inner_content h3{
-        font-size: 26px;
-    }
-    .about_inner_content {
-        bottom: -186px;
-    }    
+  
 }
 @media only screen and (max-width:1300px){
-    .about_inner_content{
-        bottom: 0;
-        min-height: 350px;
-    }
-    .service-card h3{
-        font-size: 18px;
-    }
+
 }
 @media only screen and (max-width:1024px){
     .ft-heading {
@@ -24,6 +13,9 @@
 @media only screen and (max-width:991px){
     header .navbar-nav{
         align-items: center;
+        background-image: linear-gradient(135deg, #000009, #4d1567);
+        border-radius: 6px;
+        margin-top: 15px;
     }
     .footer_wrap{
         gap: 15px;
@@ -40,24 +32,33 @@
     .section-contact .map_wrap iframe{
         height:400px;
     }
+    .content{
+        max-width: 100%;
+        text-align: center;
+    }
 }
 @media only screen and (max-width:768px){
-    .topbar .topbar-contact a:nth-child(2){
-        display: none;
-    }
-    .topbar-contact{
-        width: 100%;
-        justify-content: space-between;
-    }
     .banner-h1 {
         font-size: 40px;
         line-height: 50px;
         max-width: 100%;
     }
+    .carousel-item .caption-head .banner-image{
+        width: 300px !important;
+        top: 100%;
+    }
+    #customers-testimonials .item{
+        padding: 0;
+    }
 }
 @media only screen and (max-width:600px){
-    .about-container .about_item{
-        width: 100%;
+    .content_box_wrapper p{
+        font-size: 16px;
+    }
+    .content h2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
     }
 }
 @media only screen and (max-width:575px){
@@ -79,6 +80,24 @@
     header .navbar-brand{
         font-size: 24px;
     }
+    .sec-image{
+        width: 100%;
+    }
+    .sec-image img{
+        object-fit: contain;
+    }
+    .numbering {
+        min-width: 24px;
+        height: 24px;
+        background-color: transparent;
+        font-family: var(--theme-theme-family);
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .accordion-button {
+        padding: 20px 8px;
+    }
 }
 @media only screen and (max-width:450px){
     header .navbar-brand{
@@ -86,6 +105,10 @@
     }
     footer .navbar-brand{
         white-space: break-spaces;
+    }
+    #customers-testimonials .shadow-effect p{
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 @media only screen and (max-width:425px){

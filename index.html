@@ -20,46 +20,25 @@
 </head>
 
 <body>
-    <div class="topbar">
-        <div class="container">
-            <div class="topbar-inner">
-                <div class="topbar-contact">
-                    <a href="mailto:info@quantivetech.com">
-                        <i class="fa fa-envelope-o"></i>
-                        <span>info@quantivetech.com</span>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-globe"></i>
-                        <span>28 Oaklawn Avenue, Cranston, Rhode Island, 02920</span>
-                    </a>
-                    <a href="tel:+19599951415">
-                        <i class="fa fa-phone"></i>
-                        <span>+1(959)995-1415</span>
-                    </a>
-                </div>
-                <div class="socail_icons">
-                    <a href="#" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
+    <div id="overlay1">
+        <div id="status">
+            <div id="status-overlay"></div>
+        </div>
+    </div>
+    <div id="overlay2">
+        <div id="status">
+            <div id="status-overlay"></div>
         </div>
     </div>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#"><span>Quantive </span>Technologies LLC</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <img src="./frontend/img/toggle.svg" alt="menu button">
+                        <img src="./frontend/img/toggle.svg" class="obj_fit_contain" alt="menu button">
                     </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -71,16 +50,16 @@
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#job">Job Opening</a>
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Book a Call</a>
                         </li>
                     </ul>
                 </div>
@@ -105,104 +84,114 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="4000">
-                        <img src="./frontend/img/1.webp" class="banner_img" alt="VALUE CREATIONDIGITAL">
                         <div class="caption-head">
                             <div class="carousel-caption">
                                 <div class="container">
-                                    <div class="row row-eq-height">
-                                        <div class="col-lg-9 align-self-center">
+                                    <div class="row row-eq-height position-relative">
+                                        <div class="col-lg-7 align-self-center">
                                             <div class="content_box_wrapper" data-aos="fade-right"
                                                 data-aos-duration="800">
                                                 <h1 class="banner-h1">VALUE CREATIONDIGITAL</h1>
-                                                <p>STAFF AUGMENTATIONGLOBAL DELIVERY
-                                                    We bring digital transformation and develop innovative products. We
-                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
-                                                    Portal , CMDB and more .</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <img src="./frontend/img/2a.webp" class="banner_img" alt="TRANSFORMATION SALES FORCE">
-                        <div class="caption-head">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row row-eq-height">
-                                        <div class="col-lg-9 align-self-center">
-                                            <div class="content_box_wrapper">
-                                                <h1 class="banner-h1">TRANSFORMATION SALES FORCE</h1>
-                                                <p>STAFF AUGMENTATIONGLOBAL DELIVERY
-                                                    We bring digital transformation and develop innovative products. We
-                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
-                                                    Portal , CMDB and more .</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <img src="./frontend/img/2a.webp" class="banner_img" alt="IMPLEMENTATION SERVICE NOW">
-                        <div class="caption-head">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row row-eq-height">
-                                        <div class="col-lg-9 align-self-center">
-                                            <div class="content_box_wrapper">
-                                                <h1 class="banner-h1">
-                                                    IMPLEMENTATION SERVICE NOW
-                                                </h1>
-                                                <p>STAFF AUGMENTATIONGLOBAL DELIVERY
-                                                    We bring digital transformation and develop innovative products. We
-                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
-                                                    Portal , CMDB and more .</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="4000">
-                        <img src="./frontend/img/2a.webp" class="banner_img" alt="IMPLEMENTATION STAFF">
-                        <div class="caption-head">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row row-eq-height">
-                                        <div class="col-lg-9 align-self-center">
-                                            <div class="content_box_wrapper">
-                                                <h1 class="banner-h1">IMPLEMENTATION STAFF</h1>
                                                 <p>STAFF AUGMENTATION GLOBAL DELIVERY
                                                     We bring digital transformation and develop innovative products. We
                                                     are experts in implementing HR Service Delivery, ITOM, ITBM, Service
                                                     Portal , CMDB and more .</p>
                                             </div>
                                         </div>
+                                        <div class="banner-image">
+                                            <img src="./frontend/img/banner1.png" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="4000">
-                        <img src="./frontend/img/2a.webp" class="banner_img" alt="AUGMENTATIONGLOBAL DELIVERY">
                         <div class="caption-head">
                             <div class="carousel-caption">
                                 <div class="container">
-                                    <div class="row row-eq-height">
-                                        <div class="col-lg-9 align-self-center">
-                                            <div class="content_box_wrapper">
-                                                <h1 class="banner-h1">
-                                                    AUGMENTATION GLOBAL DELIVERY
-                                                </h1>
-                                                <p>STAFF AUGMENTATIONGLOBAL DELIVERY
+                                    <div class="row row-eq-height position-relative">
+                                        <div class="col-lg-7 align-self-center">
+                                            <div class="content_box_wrapper" data-aos="fade-right"
+                                                data-aos-duration="800">
+                                                <h1 class="banner-h1">VALUE CREATIONDIGITAL</h1>
+                                                <p>STAFF AUGMENTATION GLOBAL DELIVERY
                                                     We bring digital transformation and develop innovative products. We
                                                     are experts in implementing HR Service Delivery, ITOM, ITBM, Service
                                                     Portal , CMDB and more .</p>
                                             </div>
+                                        </div>
+                                        <div class="banner-image">
+                                            <img src="./frontend/img/banner1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="caption-head">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row row-eq-height position-relative">
+                                        <div class="col-lg-7 align-self-center">
+                                            <div class="content_box_wrapper" data-aos="fade-right"
+                                                data-aos-duration="800">
+                                                <h1 class="banner-h1">VALUE CREATIONDIGITAL</h1>
+                                                <p>STAFF AUGMENTATION GLOBAL DELIVERY
+                                                    We bring digital transformation and develop innovative products. We
+                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
+                                                    Portal , CMDB and more .</p>
+                                            </div>
+                                        </div>
+                                        <div class="banner-image">
+                                            <img src="./frontend/img/banner1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="caption-head">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row row-eq-height position-relative">
+                                        <div class="col-lg-7 align-self-center">
+                                            <div class="content_box_wrapper" data-aos="fade-right"
+                                                data-aos-duration="800">
+                                                <h1 class="banner-h1">VALUE CREATIONDIGITAL</h1>
+                                                <p>STAFF AUGMENTATION GLOBAL DELIVERY
+                                                    We bring digital transformation and develop innovative products. We
+                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
+                                                    Portal , CMDB and more .</p>
+                                            </div>
+                                        </div>
+                                        <div class="banner-image">
+                                            <img src="./frontend/img/banner1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="caption-head">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row row-eq-height position-relative">
+                                        <div class="col-lg-7 align-self-center">
+                                            <div class="content_box_wrapper" data-aos="fade-right"
+                                                data-aos-duration="800">
+                                                <h1 class="banner-h1">VALUE CREATIONDIGITAL</h1>
+                                                <p>STAFF AUGMENTATION GLOBAL DELIVERY
+                                                    We bring digital transformation and develop innovative products. We
+                                                    are experts in implementing HR Service Delivery, ITOM, ITBM, Service
+                                                    Portal , CMDB and more .</p>
+                                            </div>
+                                        </div>
+                                        <div class="banner-image">
+                                            <img src="./frontend/img/banner1.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -212,242 +201,177 @@
                 </div>
             </div>
         </section>
-
         <!--=================== ABOUT US ================-->
-        <section class="section-about" id="about">
-            <div class="container-fluid p-0">
-                <div class="sec-heading" data-aos="fade-up">
-                    <h2 class="">ABOUT US</h2>
-                    <p>Our services cover a comprehensive range of technology needs.</p>
-                </div>
-                <div class="about-container pt-5">
-                    <div class="about_item" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="800"
-                        data-aos-duration="800">
-                        <div class="about_inner">
-                            <img src="./frontend/img/about.webp" class="obj_fit" alt="Ideation And Design">
-                            <div class="about_inner_content">
-                                <h3>Ideation And Design</h3>
-                                <p>Understand the demand, gather requirements, strategic meetings with customer to
-                                    define governance model. Prototyping and low fidelity designs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about_item" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                        data-aos-offset="1000" data-aos-duration="1000">
-                        <div class="about_inner">
-                            <img src="./frontend/img/development.webp" class="obj_fit" alt="Development Phase">
-                            <div class="about_inner_content">
-                                <h3>Development Phase</h3>
-                                <p>Build scalable, instantly deployable, secure applications by following coding
-                                    standards and best practices to develop robust solution.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about_item" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                        data-aos-offset="1200" data-aos-duration="1200">
-                        <div class="about_inner">
-                            <img src="./frontend/img/testing.webp" class="obj_fit" alt="Testing And Deployment">
-                            <div class="about_inner_content">
-                                <h3>Testing And Deployment</h3>
-                                <p>Testing in sub prod instances, fix issues and deploy the final product into
-                                    production instances.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about_item" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                        data-aos-offset="1400" data-aos-duration="1400">
-                        <div class="about_inner">
-                            <img src="./frontend/img/support.webp" class="obj_fit" alt="Support And Maintenance">
-                            <div class="about_inner_content">
-                                <h3>Support And Maintenance</h3>
-                                <p>Maintain and Support the application used by millions around the world.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--=================== SERVICES ===================-->
-        <section class="service-section" id="services">
+        <section class="" id="about">
             <div class="container">
-                <div class="sec-heading" data-aos="fade-up">
-                    <h2 class="">OUR SERVICES</h2>
-                    <p>Our services cover a comprehensive range of technology needs.</p>
-                </div>
-                <div class="services-card-wrap">
-                    <div class="row">
-                        <div class="col-lg-3 mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="800">
-                            <div class="service-card" id="SALESFORCE">
-                                <div class="service-card-img">
-                                    <img src="./frontend/img/sales.svg" alt="SALESFORCE IMPLEMENTATION">
-                                </div>
-                                <h3>SALESFORCE <br> IMPLEMENTATION</h3>
-                                <p>
-                                    Salesforce Project Implementation, apps development and integrations.
-                                </p>
-                            </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="content" data-aos="fade-up">
+                            <span>AENEAN CONSECTETUR PORTA</span>
+                            <h2>Magna Porta Sit Bibendum</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.
+                            </p>
                         </div>
-                        <div class="col-lg-3 mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="1000">
-                            <div class="service-card" id="SERVICENOW">
-                                <div class="service-card-img">
-                                    <img src="./frontend/img/heart.svg" alt="SERVICENOW IMPLEMENTATION">
-                                </div>
-                                <h3>SERVICENOW <br> IMPLEMENTATION</h3>
-                                <p>
-                                    Helping customers in ServiceNow implementation like IT Service Management, IT
-                                    Business
-                                    Management, IT Operation Management and many more.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="1200">
-                            <div class="service-card" id="STAFF">
-                                <div class="service-card-img">
-                                    <img src="./frontend/img/staff.svg" alt="STAFF AUGMENTATION">
-                                </div>
-                                <h3>STAFF <br> AUGMENTATION</h3>
-                                <p>
-                                    Over the years, QuantiveTech has provided well qualified IT resources across
-                                    different
-                                    technologies to cater business needs . At the end of the day, we do what we say,
-                                    deliver
-                                    what we promise.We Deliver 'Happiness' to our employees and 'Excellent Services' to
-                                    our
-                                    clients.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="1400">
-                            <div class="service-card" id="MANAGED">
-                                <div class="service-card-img">
-                                    <img src="./frontend/img/services.svg" alt="MANAGED SERVICES">
-                                </div>
-                                <h3>MANAGED <br> SERVICES</h3>
-                                <p>
-                                    Avail our expertise services to meet performance and operational expectations.
-                                </p>
-                            </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="sec-image">
+                            <img src="./frontend/img/sec-2.png" class="obj_fit" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--=================== JOB OPENINGS ===================-->
-        <section class="section-job-opening" id="job">
-            <div class="container-fluid">
-                <div class="sec-heading" data-aos="fade-up">
-                    <h2 class="">JOB OPENING</h2>
-                    <p>Our services cover a comprehensive range of technology needs.</p>
+        <!-- ==================Section 3 ==================== -->
+        <section class="section-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="info-card">
+                            <img src="./frontend/img/info1.svg" alt="">
+                            <h4>Activity Notifications</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="info-card">
+                            <img src="./frontend/img/info2.svg" alt="">
+                            <h4>Custom Timing</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="info-card">
+                            <img src="./frontend/img/info3.svg" alt="">
+                            <h4>Mobile Optimized</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row  pt-lg-5 px-lg-5">
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="500">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>SALESFORCE TECHNOLOGY</h2>
-                                <p>
-                                    You love cracking the code on tricky problems, believe repetitive tasks should
-                                    be automated, and think the best answer is the simplest and most elegant.
-                                    Whether you're already cozy with JavaScript or think it sounds like a fancy
-                                    coffee drink, a career as a Salesforce Developer might be what you're looking
-                                    for.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/sales2.svg" alt="SALESFORCE TECHNOLOGY">
-                            </div>
+            </div>
+        </section>
+        <!--=================== section-projects ===================-->
+        <section class="section-projects py-5" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="project-item">
+                            <h2>+12k</h2>
+                            <p>Nibh Elit Tristique</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>JAVA TECHNOLOGY</h2>
-                                <p>
-                                    You love technology—it wouldn’t be uncommon to find you reading , posting in , or
-                                    contributing to Coderanch or Stack Exchange—and you love using Spring, Spring boot
-                                    and other java frameworks and love that your career has revolved around developing
-                                    new products with a high standard of excellence using Java.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/tech.svg" alt="JAVA TECHNOLOGY">
-                            </div>
+                    <div class="col-lg-3">
+                        <div class="project-item">
+                            <h2>84</h2>
+                            <p>Aenean Condimentum</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="1500">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>WEB DEVELOPMENT</h2>
-                                <p>
-                                    Angular, React, Node, JavaScript, JQuery and Vue. Do they sound familiar to you? You
-                                    relate to these terms and you are found learning more and more about new
-                                    technologies using front end frameworks and UI/UX tools then this job perfectly fits
-                                    you.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/hammer.svg" alt="WEB DEVELOPMENT">
-                            </div>
+                    <div class="col-lg-3">
+                        <div class="project-item">
+                            <h2>3,07</h2>
+                            <p>Quam Inceptos</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="2000">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>DEVOPS
-                                </h2>
-                                <p>
-                                    BitBucket, GitLab, Continous Integration, Bamboo , Jenkins, Nginx Server, Load
-                                    Balancing and Amazon AWS are a cup of tea for you and learning more about new
-                                    technologies like Docker Services is your thing then DevOps is for you.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/team-3-svgrepo-com.svg" alt="DEVOPS Teams">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="2500">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>ANDROID/IOS DEVELOPMENT</h2>
-                                <p>
-                                    Androiod Apps, IOS Apps. Be it which ever operating system from Kitkat by google to
-                                    Swift technology by Apple, If you find your interests in building apps on these
-                                    platforms then App Development is your kind of job.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/mobile2.svg" alt="ANDROID/IOS DEVELOPMENT">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
-                        <div class="job-card">
-                            <div class="job-card-content">
-                                <h2>FULL STACK DEVELOPER</h2>
-                                <p>
-                                    Not only front end technologies like angular, node, react, but also the back end
-                                    technologies like Mongo db, Php, SQL interests you and you love to work on both
-                                    front end and back end technologies then full stack is the domain best suited for
-                                    you.
-                                </p>
-                            </div>
-                            <div class="job-card-icon">
-                                <img src="./frontend/img/full-stack.svg" alt="FULL STACK DEVELOPER">
-                            </div>
+                    <div class="col-lg-3">
+                        <div class="project-item">
+                            <h2>24h</h2>
+                            <p>Ullamcorper</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!--=================== TESTIMONAILS ===================-->
+        <section class="testimonials" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="customers-testimonials" class="owl-carousel">
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-circle" src="./frontend/img/quotation.svg" alt="">
+                                    <p>
+                                        HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+                                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet
+                                        fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                                        malesuada magna mollis euismod.ing
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">
+                                    <p>
+                                        Nulla vitae elit libero, a pharetra augue.
+                                        <strong>New York Times</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-circle" src="./frontend/img/quotation.svg" alt="">
+                                    <p>
+                                        HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+                                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet
+                                        fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                                        malesuada magna mollis euismod.ing
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">ANNA ITURBE</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-circle" src="./frontend/img/quotation.svg" alt="">
+                                    <p>
+                                        HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+                                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet
+                                        fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                                        malesuada magna mollis euismod.ing
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">LARA ATKINSON</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-circle" src="./frontend/img/quotation.svg" alt="">
+                                    <p>
+                                        HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+                                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet
+                                        fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                                        malesuada magna mollis euismod.ing
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">IAN OWEN</div>
+                            </div>
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-circle" src="./frontend/img/quotation.svg" alt="">
+                                    <p>
+                                        HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo
+                                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Pus sit amet
+                                        fermentum. Donec id elit non mi porta gravida at eget metus. Etiam porta sem
+                                        malesuada magna mollis euismod.ing
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">MICHAEL TEDDY</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--=================== FAQ ===================-->
         <section class="section-faq" id="faq">
             <div class="container">
                 <div class="sec-heading" data-aos="fade-up">
                     <h2 class="">Frequently Asked Questions</h2>
-                    <p>Our services cover a comprehensive range of technology needs.</p>
+                    <p>Our services cover a comprehensive range of technology needs</p>
                 </div>
                 <div class="row pt-5">
                     <div class="col-lg-12">
@@ -558,7 +482,7 @@
                     <div class="col-lg-6">
                         <div class="contact_inner">
                             <ul class="ps-0">
-                                <h3 class="ft-heading">Contact</h3>
+                                <h3 class="ft-heading text-white mb-4">Contact</h3>
                                 <li class="align-items-start">
                                     <i class="fa fa-mobile text-white"></i>
                                     <div>
@@ -597,7 +521,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-lg-12 ps-0">
+                    <div class="col-lg-12 ps-sm-0">
                         <a class="navbar-brand" href="#"><span>Quantive </span>Technologies LLC</a>
                     </div>
                 </div>
