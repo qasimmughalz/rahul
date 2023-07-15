@@ -92,3 +92,16 @@ jQuery(document).ready(function($) {
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
+
+
+
+$(document).ready(function() {
+    $('#book_appointment').hide();
+    $('.book_appointment').click(function(e) {
+        e.preventDefault();
+        $('#book_appointment').show();
+        $('html, body').animate({
+            scrollTop: $("#book_appointment").offset().top
+        }, 100);
+    });
+});

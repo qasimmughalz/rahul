@@ -14,15 +14,19 @@
 .navbar-brand{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    color: var(--theme-secondary-color);
+    /* color: var(--theme-secondary-color); */
     font-size: 27px;
+    transition: all .3s ease;
     margin-right: 0 !important;
 }
-.navbar-brand span{
+.navbar-brand {
     color: var(--theme-white);
 }
 .navbar-brand:hover{
-    color: var(--theme-font-color);
+    color: var(--theme-secondary-color);
+}
+.navbar-brand:hover span{
+    color: var(--theme-secondary-color);
 }
 header .navbar-nav .nav-item .nav-link{
     font-size: var(--theme-font16);
@@ -134,6 +138,7 @@ header .navbar-nav .nav-item .nav-link.active{
 .project-item h2{
     font-size: 60px;
     line-height: 90px;
+    color: #7e0fc1;
 }
 .project-item p{
     margin-top: 10px;
@@ -296,7 +301,10 @@ header .navbar-nav .nav-item .nav-link.active{
     margin-top: 0 !important;
 }
 .section-contact .map_wrap iframe{
-    height:590px;
+    height:350px;
+}
+.book_appointment{
+    cursor: pointer;
 }
 
 
@@ -304,7 +312,7 @@ header .navbar-nav .nav-item .nav-link.active{
 
 /*=================== footer ===================*/
 .footer{
-    background-color: #fafafa;
+    background-color: #fff;
 }
 .footer .container{
     padding-top: 50px;
