@@ -334,6 +334,9 @@ header.sticky_header .navbar-nav .nav-item .nav-link.active{
 header.sticky_header{
     border-bottom: 1px solid var(--theme-secondary);
 }
+header.sticky_header .navbar-nav .nav-item .nav-link{
+    color: #13063A;
+}
 .navbar-toggler-icon svg{
     stroke:#fff;
 }
@@ -343,6 +346,21 @@ header.sticky_header .navbar-toggler-icon svg{
 .navbar{
     height: 100%;
     padding: 20px 0;
+}
+.last_nav_item{
+    border-radius: 3px;
+    border: 2px solid #003934;
+    box-shadow: 0 0 10px #4d2fd29c;
+}
+.last_nav_item:hover{
+    background-color: #1B1B1B;
+}
+.last_nav_item:hover .book_appointment{
+    color: #fff !important;
+}
+header .navbar-nav .nav-item .nav-link{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 
