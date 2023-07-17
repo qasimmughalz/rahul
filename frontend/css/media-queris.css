@@ -13,7 +13,8 @@
 @media only screen and (max-width:991px){
     header .navbar-nav{
         align-items: center;
-        background-image: linear-gradient(135deg, #000009, #4d1567);
+        /* background-image: linear-gradient(135deg, #000009, #4d1567); */
+        background: linear-gradient(135deg, #2b08ca, #fffdfd) !important;
         border-radius: 6px;
         margin-top: 15px;
     }
@@ -49,6 +50,10 @@
     }
     #customers-testimonials .item{
         padding: 0;
+    }
+    .full-width-section .sec-heading h2{
+        font-size: 30px;
+        line-height: 42px;
     }
 }
 @media only screen and (max-width:600px){
@@ -109,6 +114,10 @@
     #customers-testimonials .shadow-effect p{
         font-size: 20px;
         line-height: 30px;
+    }
+    .full-width-section .sec-heading h2{
+        font-size: 21px;
+        line-height: 35px;
     }
 }
 @media only screen and (max-width:425px){

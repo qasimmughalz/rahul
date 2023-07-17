@@ -7,7 +7,7 @@
     --theme-font-color: #262626;
     --theme-color: #090580;
     --theme-white: #ffffff;
-    --theme-secondary-color:#c84545;
+    --theme-secondary-color:#7e0fc1;
 
 
     --theme-main-bg: #ffffff;
@@ -170,7 +170,6 @@ select:focus {
     border-color: var(--theme-color-inv);
     color: var(--theme-font-color);
 }
-
 input:focus,
 textarea {
     -webkit-transition: var(--theme-transition);
@@ -312,7 +311,7 @@ textarea {
 /*  Header */
 
 header {
-    position: absolute;
+    position: fixed;
     top: -1px;
     width: 100%;
     z-index: 9999;
@@ -322,6 +321,24 @@ header {
     -moz--o-animation: 1s ease fadeInUpSmall;
     background:transparent;
     /* background-image: linear-gradient(135deg, var(--theme-color), #4d1567); */
+}
+header.sticky_header{
+    background-color: #fff;
+}
+header.sticky_header .navbar-brand{
+    color: #4C2FD2;
+}
+header.sticky_header .navbar-nav .nav-item .nav-link.active{
+    color:#13063A;
+}
+header.sticky_header{
+    border-bottom: 1px solid var(--theme-secondary);
+}
+.navbar-toggler-icon svg{
+    stroke:#fff;
+}
+header.sticky_header .navbar-toggler-icon svg{
+    stroke: #4C2FD2;
 }
 .navbar{
     height: 100%;
@@ -745,7 +762,7 @@ body .search-field {
     position: relative;
     height: calc(100vh - 0px);
     overflow: hidden;
-    background-image: linear-gradient(135deg, var(--theme-color), #4d1567);
+    background: linear-gradient(135deg, #2b08ca, #fffdfd) !important;
 }
 
 .home-banner {
@@ -812,7 +829,7 @@ body .search-field {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     background: linear-gradient(270deg, rgb(255 255 255 / 0%) 0%, rgb(0 0 0 / 55%) 100%, rgb(255 255 255 / 0%) 100%);
 }
 
@@ -910,7 +927,7 @@ body .search-field {
     z-index: 99999;
     top: 0;
     left: 0;
-    background: #aaaaaabc;
+    background: #DAD2F4;
     overflow: hidden;
     width: 50%;
     height: 100vh;
@@ -920,7 +937,7 @@ body .search-field {
     z-index: 99999;
     top: 0;
     right: 0;
-    background: #aaaa;
+    background: #DAD2F4;
     overflow: hidden;
     width: 50%;
     height: 100vh;
@@ -934,6 +951,6 @@ body .search-field {
     z-index: 999;
     top: 0;
     left: 0;
-    background: #aaaa;
+    background: #DAD2F4;
 }
 

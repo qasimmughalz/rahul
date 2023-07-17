@@ -1,14 +1,14 @@
-// $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
 
-//     //>=, not <=
-//     if (scroll >= 115) {
-//         //clearHeader, not clearheader - caps H
-//         $("header").addClass("sticky_header");
-//     } else {
-//         $("header").removeClass("sticky_header");
-//     }
-// });
+    //>=, not <=
+    if (scroll >= 115) {
+        //clearHeader, not clearheader - caps H
+        $("header").addClass("sticky_header");
+    } else {
+        $("header").removeClass("sticky_header");
+    }
+});
 
 AOS.init();
 
